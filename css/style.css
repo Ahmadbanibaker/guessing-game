@@ -1,0 +1,78 @@
+footer{
+    height:50px; bottom:0;
+  }
+  content{
+    top: 80px;
+    bottom:80px;
+    overflow:hidden; 
+  }
+  
+  body {
+  
+      background-color: rgb(138, 138, 165);
+    
+    }
+    nav {
+      text-align: left;
+      background: rgb(33, 216, 27);
+    }
+    
+    
+    h1 {text-align:left;
+      background-color: rgb(8, 247, 60);
+      color: #e20909c7;
+    }
+    p {
+      color: rgb(0, 174, 255);
+    }
+    
+    img {
+      border-radius: 6px;
+    }
+   
+  
+    p {
+      font-size: 140%;
+      font-family: courier;
+      border: 2px solid rgb(158, 238, 10);
+      margin: 8px;
+      
+        font-size : 15px;
+        font-weight : bold;
+        color : rgb(83, 54, 88);
+    
+    }
+    main {
+      
+      margin: auto;
+      width: 40%;
+      border: 3px solid rgb(238, 120, 10);
+      padding: 5px;
+    
+      border-style: inset;
+      background: rgb(217, 255, 0);
+    }
+    h2 {
+  
+      text-align: left;
+      background-color: rgb(247, 8, 8);
+      color: #0051ff;
+      
+    }
+    
+    nav {
+      font-size: 140%;
+      font-family: courier;
+      border: 2px solid rgb(5, 172, 194);
+      margin: 8px;
+      
+        font-size : 15px;
+        font-weight : bold;
+        color : rgb(104, 11, 62);
+    
+    }
+    [data-icon]:before {
+      font-family: icons; /* BYO icon font, mapped smartly */
+      content: attr(data-icon);
+      speak: none; /* Not to be trusted, but hey. */
+    }
