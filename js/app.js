@@ -1,5 +1,5 @@
 'use strict';
-let userwelcome = prompt ('what is your name :)');
+/*let userwelcome = prompt ('what is your name :)');
 alert('I am Glad that you are here'+ userwelcome);
 
 let knowme = prompt ('Do we know each other ?');
@@ -71,7 +71,43 @@ switch(likemansaf.toLowerCase()) {
           break;
         default:
           alert('You did not answer : (');
-          //console.log(last);
+          //console.log(last); 
       }
+      alert('Thanks for your answers :) '+ userwelcome); 
+      function question6(){
+      let guess = prompt('Guess a number between 1 and 10');
+      let numGuess = Number(guess);
+      let answer = 7;
 
-      alert('Thanks for your answers :) '+ userwelcome);     
+      for (let i = 0; i < 4; i++ ){
+        if (answer === numGuess){
+          alert('That is correct')
+          correct++;
+          break;
+        } else if (numGuess < answer){
+          numGuess = parseInt(prompt('Too low, guess again'));
+        }else 
+        numGuess = parseInt(prompt('That is too high, guess again'));
+      }
+        alert('The correct answer is 7')
+    }
+    question6(); */
+      
+      
+function question7(){
+  let favfood = ['Mansaf', 'Sushi', 'shawarma', 'Dolma', 'Pizza','Pasta']
+
+  for(let y = 0; y < 6; y++){
+    let foodGuess = prompt ('Can you guess my favorite food ?');
+    if (foodGuess.toLowerCase){
+      alert('You are correct ');
+      correct++;
+      break;
+    }else{
+      alert('sorry , please try again');
+    }
+  }
+}
+question7();
+
+alert('You got ' + correct + '/7');
