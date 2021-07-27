@@ -2,7 +2,7 @@
 let userwelcome = prompt ('what is your name :)');
 alert('I am Glad that you are here'+ userwelcome);
 
-let knowme = prompt ('Do we know each other :)');
+let knowme = prompt ('Do we know each other ?');
 switch(knowme.toLowerCase()) {
     case 'yes':
       alert ('Glad to hear about you ');
@@ -17,22 +17,22 @@ switch(knowme.toLowerCase()) {
       //console.log(knowme);
   }
 
-  let like = prompt ('Do you like programing ');
-switch(like.toLowerCase()) {
+  let likemansaf = prompt ('Do you think I like mansaf? ');
+switch(likemansaf.toLowerCase()) {
     case 'yes':
-      alert ('So you are one of the team  ');
+      alert (' yes , who does not like it ^-^  ');
      // console.log(like);
       break;
     case 'no':
-      alert('I think you must re thing of it  ');
+      alert(' actuallay , I do like mansaf alot ');
      // console.log(like);
       break;
     default:
       alert('You did not answer :(');
       //console.log(like);
   }
-  let learn = prompt ('Do you like to play football  ');
-  switch(learn.toLowerCase()) {
+  let likefootball = prompt ('Do you like to play football  ');
+  switch(likefootball.toLowerCase()) {
       case 'yes':
         alert ('Me Too , nice to hear that  ');
        // console.log(learn);
@@ -45,28 +45,28 @@ switch(like.toLowerCase()) {
         alert('You did not answer ');
         //console.log(learn);
     }
-    let thing =prompt ('Do you thing that I made a good decision to start this way ');
-    switch(thing.toLowerCase()) {
+    let likewinter =prompt ('Do you think I like winter season ? ');
+    switch(likewinter.toLowerCase()) {
         case 'yes':
-          alert ('Thanks for your encouragement ');
+          alert ('yes I do , it is much better than summer for me :) ');
          // console.log(thing);
           break;
         case 'no':
-          alert('I will be so happy to know why ? ');
+          alert(' sorry , I do like winter ');
          // console.log(thing);
           break;
         default:
           alert('You did not answer ');
           //console.log(thing);
       }
-      let last = prompt('Do you like to learn about programming ? ');
-    switch(last.toLowerCase()) {
+      let likemovies = prompt('Do you thinck I like movies or not ?  ');
+    switch(likemovies.toLowerCase()) {
         case 'yes':
-          alert ('I will be  glad to Teach you  ');
+          alert (' yes , I like them ^-^  ');
          // console.log(last);
           break;
         case 'no':
-          alert('I respict your choice  ');
+          alert(' unfortunately I do like them ');
          // console.log(last);
           break;
         default:
@@ -74,4 +74,4 @@ switch(like.toLowerCase()) {
           //console.log(last);
       }
 
-      alert('Thanks for your answers :) '+ userwelcome);      
+      alert('Thanks for your answers :) '+ userwelcome);     
