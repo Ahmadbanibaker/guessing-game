@@ -31,14 +31,14 @@ switch(likemansaf.toLowerCase()) {
       alert('You did not answer :(');
       //console.log(like);
   }
-  let likefootball = prompt ('Do you like to play football  ');
+  let likefootball = prompt ('Do you think I watch football ?  ');
   switch(likefootball.toLowerCase()) {
       case 'yes':
-        alert ('Me Too , nice to hear that  ');
+        alert ('That is right , actually I am a big fan ');
        // console.log(learn);
         break;
       case 'no':
-        alert('I think you must tye it , it is good for your health  ');
+        alert(' actually I am a big fan :) ');
        // console.log(learn);
         break;
       default:
