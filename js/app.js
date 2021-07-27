@@ -1,5 +1,5 @@
 'use strict';
-/*let userwelcome = prompt ('what is your name :)');
+let userwelcome = prompt ('what is your name :)');
 alert('I am Glad that you are here'+ userwelcome);
 
 let knowme = prompt ('Do we know each other ?');
@@ -91,7 +91,7 @@ switch(likemansaf.toLowerCase()) {
       }
         alert('The correct answer is 7')
     }
-    question6(); */
+    question6(); 
       
       
 function question7(){
