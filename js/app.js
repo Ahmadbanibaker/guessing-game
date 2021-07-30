@@ -1,5 +1,6 @@
 'use strict';
 let correct = 0;
+
 let userwelcome = prompt ('what is your name :)');
 alert('I am Glad that you are here'+ userwelcome);
  function knowme(){
@@ -37,7 +38,7 @@ switch(likemansaf.toLowerCase()) {
       //console.log(like);
   }
 }
-  likemansaf();
+likemansaf();
   function likemansaf(){
   let likefootball = prompt ('Do you think I watch football ?  ');
   switch(likefootball.toLowerCase()) {
