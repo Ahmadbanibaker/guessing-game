@@ -102,7 +102,7 @@ likemansaf();
       let answer = 7;
       
 
-      for (let i = 0; i < 4; i++ ){
+      for (let i = 0; i < 3; i++ ){
         if (answer === numGuess){
           alert('That is correct')
           correct++;
@@ -130,6 +130,7 @@ function favfood(){
       alert('sorry , please try again');
     }
   }
+  alert('The correct answers ' + favfood );
 }
 favfood();
 
